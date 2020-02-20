@@ -13,15 +13,6 @@
     </image>
     
     <item>
-      <title>Build a Website Hosted on GitHub</title>
-      <link>https://bioatmosphere.github.io/post/create-github-website/</link>
-      <pubDate>Wed, 19 Feb 2020 22:23:52 -0800</pubDate>
-      <guid>https://bioatmosphere.github.io/post/create-github-website/</guid>
-      <description>&lt;p&gt;This post briefly is served as a tutorial for building a personal website using Hugo and the Academic theme hosted on Github.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>From IBM to ABM</title>
       <link>https://bioatmosphere.github.io/post/first-blog/</link>
       <pubDate>Sat, 08 Feb 2020 18:53:16 -0800</pubDate>

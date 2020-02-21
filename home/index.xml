@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>/</link>
-    <description>Recent content on </description>
+    <title>Homes on </title>
+    <link>/home/</link>
+    <description>Recent content in Homes on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 19 Feb 2020 22:23:52 -0800</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -148,25 +147,6 @@ For inspiration, check out the Markdown files which power the personal demo. The
       
       <guid>/home/contact/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Build a Website Hosted on GitHub</title>
-      <link>/post/create-github-website/</link>
-      <pubDate>Wed, 19 Feb 2020 22:23:52 -0800</pubDate>
-      
-      <guid>/post/create-github-website/</guid>
-      <description>I have been thinking about creating a blog for a while to write about my research. Many providers out there are pretty cool to use. For example, wordpress is one that are fairly popular among people of many industries. And i am actually using such a platform (https://bwangecology.wordpress.com/2018/11/24/documentary-of/amp/)
-This post is served as a tutorial for building a personal website using Hugo and the Academic theme hosted on Github.</description>
-    </item>
-    
-    <item>
-      <title>From IBM to ABM</title>
-      <link>/post/first-blog/</link>
-      <pubDate>Sat, 08 Feb 2020 18:53:16 -0800</pubDate>
-      
-      <guid>/post/first-blog/</guid>
-      <description>My paper entitled “Soil aggregates as biogeochemical reactors and implications for soil-atmosphere exchange of greenhouse gases: a concept ” was eventually accepted by Global Change Biology at the onset of November, 2018 [1]. It is really not easy to get this good outcome. So, I just want to write this post as a documentary of the production of this paper, telling some stories ‘behind the paper’. In detail, first of all, i would articulate the central idea of this paper and its broad implications (if it has, hopefully) in a fairly broad context.</description>
     </item>
     
     <item>

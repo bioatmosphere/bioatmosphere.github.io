@@ -33,9 +33,8 @@
 &lt;/ol&gt;
 &lt;p&gt;Then clone these two repos to your computer locally.
 Open a terminal and type the following command:&lt;/p&gt;
-&lt;p&gt;&amp;lsquo;&amp;lsquo;&amp;lsquo;shell
-git clone &lt;a href=&#34;https://github.com/bioatmosphere/academic-kickstart.git&#34;&gt;https://github.com/bioatmosphere/academic-kickstart.git&lt;/a&gt; My_Website
-&#39;&amp;rsquo;&amp;rsquo;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone https://github.com/bioatmosphere/academic-kickstart.git My_Website
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     

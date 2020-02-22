@@ -23,18 +23,36 @@
 &lt;p&gt;Many website builders analogous to Hugo are out there. Here i choosed Hugo because of its popularity in academia.&lt;/p&gt;
 &lt;h3 id=&#34;academic-theme-for-hugo&#34;&gt;Academic theme for Hugo&lt;/h3&gt;
 &lt;p&gt;One of the most popular themes in academia for building a personal website.&lt;/p&gt;
-&lt;h4 id=&#34;step-1&#34;&gt;Step 1&lt;/h4&gt;
+&lt;h4 id=&#34;step-1-install-essential-softwares&#34;&gt;Step 1: Install essential softwares&lt;/h4&gt;
 &lt;p&gt;Have Hugo installed&lt;/p&gt;
 &lt;p&gt;Get a GitHub account ready and either Git or GitHub installed on your computer.&lt;/p&gt;
-&lt;h4 id=&#34;step-2&#34;&gt;Step 2&lt;/h4&gt;
+&lt;h4 id=&#34;step-2-create-github-repos&#34;&gt;Step 2: Create GitHub Repos&lt;/h4&gt;
 &lt;p&gt;Firstly create two git repositories both remotely:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Fork the Academic Kickstart repository&lt;/li&gt;
 &lt;li&gt;Create a repository named &amp;lsquo;yourname.github.io&amp;rsquo; (replace yourname with your own actual GitHub account name)&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;Then clone these two repos to your computer locally.
-Open a terminal and type the following command:&lt;/p&gt;
-&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;**git clone https://github.com/bioatmosphere/academic-kickstart.git My_Website**
+&lt;p&gt;Then clone these two repos to your computer locally. To do so, first open a terminal and then type the following shell command to install the Academic Theme.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git clone https://github.com/bioatmosphere/academic-kickstart.git My_Website
+cd My_Website
+git submodule update --init --recursive
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;step-3-deploy-on-github&#34;&gt;Step 3: Deploy on GitHub&lt;/h3&gt;
+&lt;p&gt;Firstly, run commands:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cd config/_default/
+vi config.toml
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;In your config.toml file, set baseurl = &amp;ldquo;https://&lt;USERNAME&gt;.github.io/&amp;quot;, where &lt;USERNAME&gt; is your Github username.&lt;/p&gt;
+&lt;p&gt;Now run command:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;git submodule add -f -b master https://github.com/&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Add your .github.io repository into a submodule in a folder named public, replacing with your Github username:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;hugo
+cd public
+git add .
+git commit -m &amp;quot;Build website&amp;quot;
+git push origin master
+cd ..
 &lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>

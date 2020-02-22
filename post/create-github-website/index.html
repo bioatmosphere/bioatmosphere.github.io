@@ -617,7 +617,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    1 min read
+    2 min read
   </span>
   
 
@@ -659,18 +659,36 @@
 <p>Many website builders analogous to Hugo are out there. Here i choosed Hugo because of its popularity in academia.</p>
 <h3 id="academic-theme-for-hugo">Academic theme for Hugo</h3>
 <p>One of the most popular themes in academia for building a personal website.</p>
-<h4 id="step-1">Step 1</h4>
+<h4 id="step-1-install-essential-softwares">Step 1: Install essential softwares</h4>
 <p>Have Hugo installed</p>
 <p>Get a GitHub account ready and either Git or GitHub installed on your computer.</p>
-<h4 id="step-2">Step 2</h4>
+<h4 id="step-2-create-github-repos">Step 2: Create GitHub Repos</h4>
 <p>Firstly create two git repositories both remotely:</p>
 <ol>
 <li>Fork the Academic Kickstart repository</li>
 <li>Create a repository named &lsquo;yourname.github.io&rsquo; (replace yourname with your own actual GitHub account name)</li>
 </ol>
-<p>Then clone these two repos to your computer locally.
-Open a terminal and type the following command:</p>
-<pre><code class="language-shell">**git clone https://github.com/bioatmosphere/academic-kickstart.git My_Website**
+<p>Then clone these two repos to your computer locally. To do so, first open a terminal and then type the following shell command to install the Academic Theme.</p>
+<pre><code class="language-shell">git clone https://github.com/bioatmosphere/academic-kickstart.git My_Website
+cd My_Website
+git submodule update --init --recursive
+</code></pre>
+<h3 id="step-3-deploy-on-github">Step 3: Deploy on GitHub</h3>
+<p>Firstly, run commands:</p>
+<pre><code class="language-shell">cd config/_default/
+vi config.toml
+</code></pre>
+<p>In your config.toml file, set baseurl = &ldquo;https://<USERNAME>.github.io/&quot;, where <USERNAME> is your Github username.</p>
+<p>Now run command:</p>
+<pre><code class="language-shell">git submodule add -f -b master https://github.com/&lt;USERNAME&gt;/&lt;USERNAME&gt;.github.io.git public
+</code></pre>
+<p>Add your .github.io repository into a submodule in a folder named public, replacing with your Github username:</p>
+<pre><code class="language-shell">hugo
+cd public
+git add .
+git commit -m &quot;Build website&quot;
+git push origin master
+cd ..
 </code></pre>
 
     </div>

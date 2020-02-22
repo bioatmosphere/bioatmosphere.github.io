@@ -17,7 +17,8 @@
       <link>https://bioatmosphere.github.io/post/create-github-website/</link>
       <pubDate>Wed, 19 Feb 2020 22:23:52 -0800</pubDate>
       <guid>https://bioatmosphere.github.io/post/create-github-website/</guid>
-      <description>&lt;p&gt;This post is served as a tutorial for building a personal website using Hugo and the Academic theme hosted on Github.&lt;/p&gt;
+      <description>&lt;p&gt;I have been thinking about creating a blog for a while to write about my research. Many providers out there are pretty cool to use. For example, wordpress is one that are fairly popular among people of many industries. And i am actually using such a platform (&lt;a href=&#34;https://bwangecology.wordpress.com/2018/11/24/documentary-of/amp/&#34;&gt;https://bwangecology.wordpress.com/2018/11/24/documentary-of/amp/&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;This post is served as a tutorial for building a personal website using Hugo and the Academic theme hosted on Github.&lt;/p&gt;
 &lt;h3 id=&#34;background&#34;&gt;Background&lt;/h3&gt;
 &lt;p&gt;Many website builders analogous to Hugo are out there. Here i choosed Hugo because of its popularity in academia.&lt;/p&gt;
 &lt;h3 id=&#34;academic-theme-for-hugo&#34;&gt;Academic theme for Hugo&lt;/h3&gt;

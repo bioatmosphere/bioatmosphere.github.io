@@ -1,13 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors on </title>
-    <link>/authors/</link>
-    <description>Recent content in Authors on </description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Authors | Bin Wang&#39;s Blog</title>
+    <link>https://bioatmosphere.github.io/authors/</link>
+      <atom:link href="https://bioatmosphere.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 19 Feb 2020 22:23:52 -0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Authors</title>
+      <link>https://bioatmosphere.github.io/authors/</link>
+    </image>
     
-	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
-    
+    <item>
+      <title></title>
+      <link>https://bioatmosphere.github.io/authors/admin/</link>
+      <pubDate>Wed, 19 Feb 2020 22:23:52 -0800</pubDate>
+      <guid>https://bioatmosphere.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;Bin Wang is a postdoctoral scholar at University of California Irvine working with Dr. Steven Allison on microbial systems composition, structure, function, and dynamics toward the understanding of soil microorganisms in regulating biosphere-atmosphere interactions. Please check out my website at: &lt;a href=&#34;https://bwangecology.wordpress.com/&#34;&gt;https://bwangecology.wordpress.com/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
   </channel>
 </rss>

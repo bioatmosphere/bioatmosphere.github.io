@@ -18,9 +18,9 @@
       <pubDate>Wed, 19 Feb 2020 22:23:52 -0800</pubDate>
       <guid>https://bioatmosphere.github.io/post/create-github-website/</guid>
       <description>&lt;p&gt;I have been thinking about creating a blog to write about my research and others for a long time. And i am actually having one using a free service provided by WordPress(
-&lt;a href=&#34;https://bwangecology.wordpress.com/2018/11/24/documentary-of/amp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;) and another one using Google Blogger created when i was a PhD student.Many more providers of personal website and/or blog site are out there, e.g., WIX, Google Site, etc. And WordPress is one of the most popular ones among people of many industries. However, I always do not feel comfortable with these platforms, especially considering they are always not free if you want to avoid advertisments on your site.&lt;/p&gt;
-&lt;p&gt;My attention was eventually drawn to GitHub, which can host websites as diverse as personal, group, projct, etc by storing source code, files, and other data. One clear advantage of using GitHub is we can avoid any ADs on the webpages. So I did a little research on creating a blog on GitHub, and found the learning curve is not steep.&lt;/p&gt;
-&lt;p&gt;This post is served as a brief tutorial for building a personal website hosted on Github using Hugo and the Academic theme. Many website builders analogous to Hugo are out there(e.g. Jekyll). Here i chose Hugo because of the popularity in academia of the Academic Theme built for it. Following the 3 steps below closely, you will be able to start your own GitHub website online in a few minutes:&lt;/p&gt;
+&lt;a href=&#34;https://bwangecology.wordpress.com/2018/11/24/documentary-of/amp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;) and another one using Google Blogger created when i was a PhD student.Many more providers of personal website and/or blog site are out there, e.g., WIX, Google Site, etc. And WordPress is actually one of the most popular ones among people of many industries. However, I always do not feel comfortable with these platforms, especially considering they are always not free if you want to get rid of annoying advertisments on your site.&lt;/p&gt;
+&lt;p&gt;My attention was eventually drawn to GitHub. As one of the most popular code sharing platforms nowadays, it can also host websites as diverse as personal, group, projct, etc by storing source code, files, and other data. One clear advantage of using GitHub is it has NO ADs, offering us a clean persoanl website. So I did a little research on creating a blog on GitHub, and found the learning curve is not steep.&lt;/p&gt;
+&lt;p&gt;This post is served as a brief tutorial for building a personal website hosted on Github using Hugo and the Academic theme. Many website builders analogous to Hugo are out there(e.g. Jekyll). Here i chose Hugo because of the popularity in academia of the Academic Theme built for it. Following the 3 steps below closely, you will be able to start your own GitHub website in a few minutes:&lt;/p&gt;
 &lt;h3 id=&#34;step-1-install-essential-softwares&#34;&gt;Step 1: Install essential softwares&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -36,7 +36,7 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id=&#34;step-2-create-github-repos&#34;&gt;Step 2: Create GitHub Repos&lt;/h3&gt;
-&lt;p&gt;Firstly create two git repositories both remotely:&lt;/p&gt;
+&lt;p&gt;Firstly create two git repositories both remotely under your GitHub account:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Fork the Academic Kickstart repository&lt;/li&gt;
 &lt;li&gt;Create a repository named &amp;lsquo;yourname.github.io&amp;rsquo; (replace yourname with your own actual GitHub account name)&lt;/li&gt;
@@ -65,6 +65,9 @@ git commit -m &amp;quot;Build website&amp;quot;
 git push origin master
 cd ..
 &lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then what you need to do is just tailoring this site design framework futher to your own needs and flavor and creating contents spanning from blogs, slides, and pages to photos and videos. For all these refer to the Hugo and Academic Theme Documentation. For example, to write a new blog, run command:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;hugo new --kind post post/my-first-post
+&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
     
@@ -73,7 +76,9 @@ cd ..
       <link>https://bioatmosphere.github.io/post/first-blog/</link>
       <pubDate>Sat, 08 Feb 2020 18:53:16 -0800</pubDate>
       <guid>https://bioatmosphere.github.io/post/first-blog/</guid>
-      <description>&lt;p&gt;My paper entitled “Soil aggregates as biogeochemical reactors and implications for soil-atmosphere exchange of greenhouse gases: a concept ” was eventually accepted by Global Change Biology at the onset of November, 2018 [1].  It is really not easy to get this good outcome. So, I just want to write this post as a documentary of the production of this paper, telling some stories ‘behind the paper’. In detail, first of all, i would articulate the central idea of this paper and its broad implications (if it has, hopefully) in a fairly broad context. Then, i am going to tell the origin of the idea and impetus in writing such a paper. Next, the journal submission process is literally described. Finally, i would love to share some of the lessons learned from completing this piece. Hopefully, these fairly personal lessons would inspire some of the readers of this post.&lt;/p&gt;
+      <description>&lt;p&gt;[This blog was initially published on my WordPress-based website at 
+&lt;a href=&#34;https://bwangecology.wordpress.com/2018/11/24/documentary-of/amp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;My paper entitled “Soil aggregates as biogeochemical reactors and implications for soil-atmosphere exchange of greenhouse gases: a concept ” was eventually accepted by Global Change Biology at the onset of November, 2018 [1].  It is really not easy to get this good outcome. So, I just want to write this post as a documentary of the production of this paper, telling some stories ‘behind the paper’. In detail, first of all, i would articulate the central idea of this paper and its broad implications (if it has, hopefully) in a fairly broad context. Then, i am going to tell the origin of the idea and impetus in writing such a paper. Next, the journal submission process is literally described. Finally, i would love to share some of the lessons learned from completing this piece. Hopefully, these fairly personal lessons would inspire some of the readers of this post.&lt;/p&gt;
 &lt;h2 id=&#34;how-should-we-view-soil-systems&#34;&gt;HOW SHOULD WE VIEW SOIL SYSTEMS?&lt;/h2&gt;
 &lt;p&gt;Soils to everyone are not a stranger. We are standing on them all the time only except the stage when we reach the end of our longevity. However, this is true to only individuals, which for the whole human population is forever true.  Presumably just because of this natural advantage generously offered by God we always ignore soils beneath our feet, simply and arrogantly thinking them as dirts. And even if in recent years we have started to appreciate its grand importance to the whole Earth System from as many sectors as science, society, environment, climate change, sustainability, etc., we still do not get one fundamental question answered—-How should we view soil systems beneath our feet methodologically? What’s the correct attitude should we hold toward soils?&lt;/p&gt;
 &lt;p&gt;In contrast to the traditional up-down approach, in this paper i contend that instead we should view soils from the bottom up. This idea is rooted in my dissertation research on individual-based modelling of forest ecosystems that has been ongoing since 1970s and pioneered by Botkin and Herman. Shugart (my advisor)[2].  In fact, this bottom-up methodology is broadly true in many other systems across the natural and societal systems [3]. For example, the recent special issue in Nature, ‘Bottom-up Biology[4]’,  echos this idea in soils systems.&lt;/p&gt;

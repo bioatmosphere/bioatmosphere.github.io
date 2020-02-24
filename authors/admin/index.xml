@@ -17,10 +17,10 @@
       <link>https://bioatmosphere.github.io/post/create-github-website/</link>
       <pubDate>Wed, 19 Feb 2020 22:23:52 -0800</pubDate>
       <guid>https://bioatmosphere.github.io/post/create-github-website/</guid>
-      <description>&lt;p&gt;I have been thinking about creating a blog to write about my research and others for a long time. And i am actually having one using a free service provided by WordPress (
+      <description>&lt;p&gt;I have been thinking about creating a blog to write about my research and others for a long time. And i am actually having one using a free service provided by WordPress(
 &lt;a href=&#34;https://bwangecology.wordpress.com/2018/11/24/documentary-of/amp/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;link&lt;/a&gt;) and another one using Google Blogger created when i was a PhD student.Many more providers of personal website and/or blog site are out there, e.g., WIX, Google Site, etc. And WordPress is one of the most popular ones among people of many industries. However, I always do not feel comfortable with these platforms, especially considering they are always not free if you want to avoid advertisments on your site.&lt;/p&gt;
-&lt;p&gt;My attention was then drawn to GitHub, which can host websites as diverse as personal, group, projct, etc by storing source code, files, and other data. One clear advantage of using GitHub is we can avoid any ADs on the webpages. So I did a little research on creating a blog on GitHub, and found the learning curve is not steep.&lt;/p&gt;
-&lt;p&gt;This post is served as a tutorial for building a personal website hosted on Github using Hugo and the Academic theme. Many website builders analogous to Hugo are out there(e.g. jEkyll). Here i chose Hugo because of the popularity in academiaof the Academic Theme built for it. Following the 3 steps below closely, you will be able to start your own GitHub website online:&lt;/p&gt;
+&lt;p&gt;My attention was eventually drawn to GitHub, which can host websites as diverse as personal, group, projct, etc by storing source code, files, and other data. One clear advantage of using GitHub is we can avoid any ADs on the webpages. So I did a little research on creating a blog on GitHub, and found the learning curve is not steep.&lt;/p&gt;
+&lt;p&gt;This post is served as a brief tutorial for building a personal website hosted on Github using Hugo and the Academic theme. Many website builders analogous to Hugo are out there(e.g. Jekyll). Here i chose Hugo because of the popularity in academia of the Academic Theme built for it. Following the 3 steps below closely, you will be able to start your own GitHub website online in a few minutes:&lt;/p&gt;
 &lt;h3 id=&#34;step-1-install-essential-softwares&#34;&gt;Step 1: Install essential softwares&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
@@ -47,6 +47,8 @@ cd My_Website
 git submodule update --init --recursive
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;step-3-deploy-on-github&#34;&gt;Step 3: Deploy on GitHub&lt;/h3&gt;
+&lt;p&gt;In essence, deploying a webiste on GitHub is powered by its feature, GitHub Page. Here is an example of using GitHub Page to display the microbial model I am working on: 
+&lt;a href=&#34;https://bioatmosphere.github.io/DEMENTpy/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;DEMENTpy&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Firstly, run commands:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-shell&#34;&gt;cd config/_default/
 vi config.toml

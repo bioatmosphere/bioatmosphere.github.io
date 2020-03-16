@@ -3,42 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-<<<<<<< HEAD
+    <loc>https://bioatmosphere.github.io/authors/</loc>
+    <lastmod>2020-03-15T22:11:08-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bioatmosphere.github.io/post/work-from-home-coronavirus/</loc>
     <lastmod>2020-03-15T22:11:08-07:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bioatmosphere.github.io/authors/</loc>
-=======
-    <loc>https://bioatmosphere.github.io/authors/admin/</loc>
->>>>>>> 6ef60debec04ec1e86630c882fb02d24790a34d1
-    <lastmod>2020-03-13T17:12:31-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bioatmosphere.github.io/authors/</loc>
-    <lastmod>2020-03-09T22:26:48-07:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bioatmosphere.github.io/</loc>
-    <lastmod>2020-03-09T22:26:48-07:00</lastmod>
-  </url>
-  
-  <url>
-<<<<<<< HEAD
-    <loc>https://bioatmosphere.github.io/authors/admin/</loc>
-    <lastmod>2020-03-13T17:12:31-07:00</lastmod>
-=======
     <loc>https://bioatmosphere.github.io/post/create-github-website/</loc>
     <lastmod>2020-02-28T21:27:13-08:00</lastmod>
->>>>>>> 6ef60debec04ec1e86630c882fb02d24790a34d1
   </url>
   
   <url>
     <loc>https://bioatmosphere.github.io/post/ibm-abm/</loc>
     <lastmod>2020-03-09T22:26:48-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bioatmosphere.github.io/authors/admin/</loc>
+    <lastmod>2020-03-13T17:12:31-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bioatmosphere.github.io/</loc>
+    <lastmod>2019-03-17T20:39:18+00:00</lastmod>
   </url>
   
   <url>

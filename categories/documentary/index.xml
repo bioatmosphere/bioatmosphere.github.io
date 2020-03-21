@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentary | Bin Wang&#39;s Blog</title>
+    <link>https://bioatmosphere.github.io/categories/documentary/</link>
+      <atom:link href="https://bioatmosphere.github.io/categories/documentary/index.xml" rel="self" type="application/rss+xml" />
+    <description>Documentary</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 08 Feb 2020 18:53:16 -0800</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Documentary</title>
+      <link>https://bioatmosphere.github.io/categories/documentary/</link>
+    </image>
+    
+    <item>
+      <title>From IBM to ABM</title>
+      <link>https://bioatmosphere.github.io/post/ibm-abm/</link>
+      <pubDate>Sat, 08 Feb 2020 18:53:16 -0800</pubDate>
+      <guid>https://bioatmosphere.github.io/post/ibm-abm/</guid>
+      <description>&lt;p&gt;My paper entitled “Soil aggregates as biogeochemical reactors and implications for soil-atmosphere exchange of greenhouse gases: a concept ” was eventually accepted by Global Change Biology at the onset of November, 2018 [1].  It is really not easy to get this good outcome. So, I just want to write this post as a documentary of the production of this paper, telling some stories ‘behind the paper’. In detail, first of all, i would articulate the central idea of this paper and its broad implications (if it has, hopefully) in a fairly broad context. Then, i am going to tell the origin of the idea and impetus in writing such a paper. Next, the journal submission process is literally described. Finally, i would love to share some of the lessons learned from completing this piece. Hopefully, these fairly personal lessons would inspire some of the readers of this post.&lt;/p&gt;
+&lt;h2 id=&#34;how-should-we-view-soil-systems&#34;&gt;HOW SHOULD WE VIEW SOIL SYSTEMS?&lt;/h2&gt;
+&lt;p&gt;Soils to everyone are not a stranger. We are standing on them all the time only except the stage when we reach the end of our longevity. However, this is true to only individuals, which for the whole human population is forever true.  Presumably just because of this natural advantage generously offered by God we always ignore soils beneath our feet, simply and arrogantly thinking them as dirts. And even if in recent years we have started to appreciate its grand importance to the whole Earth System from as many sectors as science, society, environment, climate change, sustainability, etc., we still do not get one fundamental question answered—-How should we view soil systems beneath our feet methodologically? What’s the correct attitude should we hold toward soils?&lt;/p&gt;
+&lt;p&gt;In contrast to the traditional up-down approach, in this paper i contend that instead we should view soils from the bottom up. This idea is rooted in my dissertation research on individual-based modelling of forest ecosystems that has been ongoing since 1970s and pioneered by Botkin and Herman. Shugart (my advisor)[2].  In fact, this bottom-up methodology is broadly true in many other systems across the natural and societal systems [3]. For example, the recent special issue in Nature, ‘Bottom-up Biology[4]’,  echos this idea in soils systems.&lt;/p&gt;
+&lt;p&gt;Fig.1 Schematic of Soil systems with aggregates being treated as the basic structural units.&lt;/p&gt;
+&lt;h2 id=&#34;how-was-the--idea-conceived-and-developed&#34;&gt;HOW WAS THE  IDEA CONCEIVED AND DEVELOPED?&lt;/h2&gt;
+&lt;p&gt;I initially came up with this idea back in the Fall of  2013 when i was a freshly new PhD student in Department of Environmental Sciences, University of Virginia, located at the most beautiful college town in US, Charlottesville (as least so far i strongly hold up this opinion since i’ve been a few places in US though, of course, not all).  The background and specific reasons leading to the development of this idea are summarized as follows: 1) I did a project about non-microbial methane production from soils for my master thesis, which involved soil aggregation and aggregate-derived methane; This was the first time i approach this concept, which later i found really important in soil science. 2)  then I relatively had more time then and wanted to publish some papers beyond my doctoral dissertation research; 3) Google scholar has a function sending out the latest research related to my soil aggregate methane [5] research in the format of ‘Google Scholar Alert’. I found a couple of papers studying aggregate level GHG production during that period. Under these conditions, I made a decision to conduct a synthesis study of these published studies to write a review paper. The boring, frustrating, and time-consuming processes thus got started.&lt;/p&gt;
+&lt;h2 id=&#34;process-of-submission-to-journals&#34;&gt;PROCESS OF SUBMISSION TO JOURNALS&lt;/h2&gt;
+&lt;p&gt;To be honest, it’s really a tedious process even before its submission to Global Change Biology that got a good outcome eventually. Preceding this final submission, i’ve submitted it to four different soil-related journals (including GCB. Yes, submitted to it last year).&lt;/p&gt;
+&lt;p&gt;1st submission (SBB; December 2014):  I first determined to submit this ms to SBB, which very fortunately was sent out for a peer-review promptly.&lt;/p&gt;
+&lt;p&gt;2nd submission (SOIL 2015): This submission had not been sent out for peer review, but it was handled by Six. Everyone doing soil science, in particular soil aggregation research, should know him.&lt;/p&gt;
+&lt;p&gt;3rd submission (GCB 2016): A very smooth submission experience with a fairly efficient peer review process. Unfortunately, it was rejected again, but with very good comments from two reviewers.&lt;/p&gt;
+&lt;p&gt;4th submission (GCB 2018): Since it was rejected in 2016, i have spent some time in further revising it , but most of my attention was directed to the my dissertation-related work. So it was not submitted again until early 2018 when i moved across US to UC, Irvine.  Finally accepted but with a fairly slow peer review process with two rounds of reject and resubmission preceding a direct acceptance.&lt;/p&gt;
+&lt;h2 id=&#34;lessons-learned&#34;&gt;LESSONS LEARNED&lt;/h2&gt;
+&lt;p&gt;One primary lesson i learned throughout this process is that DON’T BE SHORT-SIGHTED. Never try to finish sth, especially a synthesis or a review paper quickly without a complete grasp of the big picture and details of the project. No one can do it,  especially for a brand-new idea that is being nurtured. It’s fairly normal to spend a lot of time working on it again and again (even for a senior scientist, i guess). Here are some specific suggestions i would give (lessons i learned):&lt;/p&gt;
+&lt;p&gt;Be persistent. Never give up.  First of all, this is the thing that superimposes upon everything that i am going to list and articulate below.  This ‘never give up’ includes finishing the writing itself and journal submission. As regards journal submission,  if rejected with comments, do be humbly take up those comments (may really harsh) and try to revise the manuscript by incorporating these comments. And the writing is probably intertwined with the submission-rejection cycle. So keep working on it, and do not give it up once you have started this project. You will eventually get there( i mean the email saying ‘it’s a pleasure to notify you that you paper gets accepted…something like this).&lt;/p&gt;
+&lt;p&gt;Keep thinking. No rush to get it done ASAP. Ideas or nice points would/will pop up during this process. What you need to do is to keep thinking about it. And do not forget about it, of course.&lt;/p&gt;
+&lt;p&gt;Keep improving. This somewhat overlaps the second one,’ keep thinking’. We can’t have all ideas/points that should be included come up all at once. Some of them probably will only occur occasionally when, for example, you lie on the bed and reluctant to get up, have dinner, or something else (e.g., sitting on the toilet). When we have these ideas, we can record them and put them in the manuscript. Through this process, we continuously improve the paper.&lt;/p&gt;
+&lt;p&gt;Keep trying. Journals nowadays are overwhelmingly rich in terms of journal names, publisher and publication mode. When you feel ready, submission to some journals would not be bad, as a submission with a peer-review would reap some either nice or bad comments, which, i think, will be all helpful for improving your manuscripts. And rejections from journals are totally fine, as you will have ample options of outlets.&lt;/p&gt;
+&lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Wang, Bin, Paul E. Brewer, Herman H. Shugart, Manuel T. Lerdau, and Steven D. Allison. “Soil aggregates as biogeochemical reactors and implications for soil‐atmosphere exchange of greenhouse gases—a concept.” Global change biology (2018). &lt;a href=&#34;https://doi.org/10.1111/gcb.14515&#34;&gt;https://doi.org/10.1111/gcb.14515&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Shugart, H. H. (1984). A theory of forest dynamics. The ecological implications of forest succession models. Springer-Verlag.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;West, G. (2017). Scale: the universal laws of growth, innovation, sustainability, and the pace of life in organisms, cities, economies, and companies. Penguin.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Kendal Powell How biologists are creating life-like cells from scratch &lt;a href=&#34;https://www.nature.com/collections/bsmxgstsgy&#34;&gt;https://www.nature.com/collections/bsmxgstsgy&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wang, B., Hou, L., Liu, W., &amp;amp; Wang, Z. (2013). Non-microbial methane emissions from soils. Atmospheric environment, 80, 290-298. &lt;a href=&#34;https://doi.org/10.1016/j.atmosenv.2013.08.010&#34;&gt;https://doi.org/10.1016/j.atmosenv.2013.08.010&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
